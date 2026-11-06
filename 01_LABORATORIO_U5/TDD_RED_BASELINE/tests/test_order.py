@@ -23,7 +23,7 @@ def test_invalid_total(total):
 
 def test_vip_discount_for_total_200():
     order = Order(200, vip=True)
-    assert order.confirm() == 171
+    assert order.confirm() == 170
     assert order.status == "CONFIRMED"
 
 
