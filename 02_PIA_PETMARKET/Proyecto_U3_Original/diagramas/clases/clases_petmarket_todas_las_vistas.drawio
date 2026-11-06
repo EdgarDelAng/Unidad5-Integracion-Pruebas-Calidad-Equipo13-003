@@ -1,0 +1,946 @@
+<mxfile host="app.diagrams.net" agent="PetMarket-U3" pages="4">
+  <diagram name="01-UML-General" id="01-UML-General">
+    <mxGraphModel dx="2621" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" />
+        <mxCell id="1" parent="0" value="" />
+        <mxCell id="01-UML-General-shape-1" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F6F9FC;strokeColor=#F6F9FC;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="1220" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-2" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#087FBA;strokeColor=#087FBA;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="114" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#DBF8FF;" value="PETMARKET   /   ARQUITECTURA DE SOFTWARE " vertex="1">
+          <mxGeometry height="32" width="613" x="62" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontStyle=1;fontColor=#FFFFFF;" value="01  |  ESTRUCTURA GENERAL DE CLASES" vertex="1">
+          <mxGeometry height="44" width="713" x="62" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-7" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CADBE8;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1157" as="sourcePoint" />
+            <mxPoint x="1946" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-shape-10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E3EFF7;strokeColor=#D2E4EE;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="35" width="386" x="72" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-11" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#087FBA;" value="ASOCIACIÓN Y REFERENCIA POR ID" vertex="1">
+          <mxGeometry height="29" width="320" x="105" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-14" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="252" width="385" x="85" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-15" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="385" x="85" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-16" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="104" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-17" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Carrito" vertex="1">
+          <mxGeometry height="36" width="112" x="104" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-18" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- carritoId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="104" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-19" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- clienteId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="104" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-20" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99" y="426" as="sourcePoint" />
+            <mxPoint x="456" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-21" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ validarStock(): Resultado" vertex="1">
+          <mxGeometry height="30" width="295" x="104" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-22" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#168D70;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="415" x="790" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-23" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D8F4EA;strokeColor=#D8F4EA;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="415" x="790" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#168D70;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="809" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-25" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Pedido" vertex="1">
+          <mxGeometry height="36" width="97" x="809" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-26" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="809" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-27" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- clienteId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="809" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-28" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoPedido" vertex="1">
+          <mxGeometry height="30" width="240" x="809" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-29" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="804" y="457" as="sourcePoint" />
+            <mxPoint x="1191" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ confirmarPago(): void" vertex="1">
+          <mxGeometry height="30" width="251" x="809" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ solicitarCancelacion(): void" vertex="1">
+          <mxGeometry height="30" width="328" x="809" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-32" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8460C7;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="252" width="390" x="1520" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-33" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#ECE1FF;strokeColor=#ECE1FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="390" x="1520" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-34" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="1539" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-35" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Pago" vertex="1">
+          <mxGeometry height="36" width="67" x="1539" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-36" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pagoId: UUID" vertex="1">
+          <mxGeometry height="30" width="151" x="1539" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="1539" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-38" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1534" y="426" as="sourcePoint" />
+            <mxPoint x="1896" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-39" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarResultado(): void" vertex="1">
+          <mxGeometry height="30" width="306" x="1539" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-40" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#D09223;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="221" width="396" x="82" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-41" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF1D5;strokeColor=#FFF1D5;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="396" x="82" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="101" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-43" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Almacen" vertex="1">
+          <mxGeometry height="36" width="112" x="101" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-44" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- almacenId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="101" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-45" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="96" y="842" as="sourcePoint" />
+            <mxPoint x="464" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-46" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ consultarExistencias(): int" vertex="1">
+          <mxGeometry height="30" width="317" x="101" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-47" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#D09223;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="420" x="654" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-48" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF1D5;strokeColor=#FFF1D5;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="420" x="654" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="673" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-50" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="OrdenPreparacion" vertex="1">
+          <mxGeometry height="36" width="247" x="673" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-51" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- ordenId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="673" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-52" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="673" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-53" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- almacenId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="673" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-54" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668" y="904" as="sourcePoint" />
+            <mxPoint x="1060" y="904" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-55" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ marcarPreparado(): void" vertex="1">
+          <mxGeometry height="30" width="273" x="673" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-56" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ empacar(): void" vertex="1">
+          <mxGeometry height="30" width="184" x="673" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-57" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CE5287;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="252" width="405" x="1325" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-shape-58" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFE1ED;strokeColor=#FFE1ED;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="405" x="1325" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-59" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="1344" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-60" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Envio" vertex="1">
+          <mxGeometry height="36" width="82" x="1344" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-61" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- envioId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="1344" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-text-62" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="1344" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-63" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1339" y="876" as="sourcePoint" />
+            <mxPoint x="1716" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-64" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarSalida(): void" vertex="1">
+          <mxGeometry height="30" width="273" x="1344" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-65" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#087FBA;strokeWidth=2.5;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="384" />
+              <mxPoint x="580" y="415" />
+            </Array>
+            <mxPoint x="470" y="384" as="sourcePoint" />
+            <mxPoint x="790" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-67" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#087FBA;" value="clienteId / checkout" vertex="1">
+          <mxGeometry height="28" width="203" x="587" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-68" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8460C7;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;entryX=-0.005;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" target="01-UML-General-shape-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="415" as="sourcePoint" />
+            <mxPoint x="1520" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-70" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="pedidoId" vertex="1">
+          <mxGeometry height="28" width="86" x="1325" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-71" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#D09223;strokeWidth=2.5;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" x="0.2851" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="572" />
+              <mxPoint x="980" y="645" />
+              <mxPoint x="864" y="645" />
+            </Array>
+            <mxPoint x="980" y="572" as="sourcePoint" />
+            <mxPoint x="864" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-73" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="pedidoId" vertex="1">
+          <mxGeometry height="28" width="86" x="886" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-74" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#CE5287;strokeWidth=2.5;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1145" y="663" />
+              <mxPoint x="1527.5" y="663" />
+            </Array>
+            <mxPoint x="1145" y="572" as="sourcePoint" />
+            <mxPoint x="1527.5" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-76" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="pedidoId" vertex="1">
+          <mxGeometry height="28" width="86" x="1310" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="01-UML-General-edge-77" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#D09223;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;entryX=-0.001;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" target="01-UML-General-shape-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="815.5" as="sourcePoint" />
+            <mxPoint x="654" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01-UML-General-text-79" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="almacenId" vertex="1">
+          <mxGeometry height="28" width="95" x="512" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02-UML-Pedido" id="02-UML-Pedido">
+    <mxGraphModel dx="2323" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" />
+        <mxCell id="1" parent="0" value="" />
+        <mxCell id="02-UML-Pedido-shape-1" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F6F9FC;strokeColor=#F6F9FC;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="1220" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-2" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#087FBA;strokeColor=#087FBA;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="114" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#DBF8FF;" value="PETMARKET   /   ARQUITECTURA DE SOFTWARE " vertex="1">
+          <mxGeometry height="32" width="613" x="62" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontStyle=1;fontColor=#FFFFFF;" value="02  |  PEDIDO Y CANCELACIÓN" vertex="1">
+          <mxGeometry height="44" width="552" x="62" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-7" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CADBE8;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1157" as="sourcePoint" />
+            <mxPoint x="1946" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#168D70;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="469" width="520" x="750" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-11" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D8F4EA;strokeColor=#D8F4EA;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="520" x="750" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-12" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#168D70;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="769" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-13" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Pedido" vertex="1">
+          <mxGeometry height="36" width="97" x="769" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-14" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- id: UUID" vertex="1">
+          <mxGeometry height="30" width="107" x="769" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-15" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- clienteId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="769" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-16" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoPedido" vertex="1">
+          <mxGeometry height="30" width="240" x="769" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-17" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- total: Dinero" vertex="1">
+          <mxGeometry height="30" width="162" x="769" y="397" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-18" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- detalles: List&lt;DetallePedido&gt;" vertex="1">
+          <mxGeometry height="30" width="339" x="769" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-19" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="764" y="470" as="sourcePoint" />
+            <mxPoint x="1256" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-20" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ calcularTotal(): Dinero" vertex="1">
+          <mxGeometry height="30" width="273" x="769" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-21" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ confirmarPago(): void" vertex="1">
+          <mxGeometry height="30" width="251" x="769" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-22" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ solicitarCancelacion(motivo: String): void" vertex="1">
+          <mxGeometry height="30" width="483" x="769" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-23" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ autorizarCancelacion(adminId: UUID): void" vertex="1">
+          <mxGeometry height="30" width="472" x="769" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarEnvio(): void" vertex="1">
+          <mxGeometry height="30" width="262" x="769" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-25" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="488" x="95" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-26" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="488" x="95" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-27" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="114" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-28" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="DetallePedido" vertex="1">
+          <mxGeometry height="36" width="202" x="114" y="581" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-29" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- lineaId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="114" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- productoSKU: String" vertex="1">
+          <mxGeometry height="30" width="229" x="114" y="671" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- cantidad: int" vertex="1">
+          <mxGeometry height="30" width="162" x="114" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-32" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- precioUnitario: Dinero" vertex="1">
+          <mxGeometry height="30" width="262" x="114" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-33" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109" y="775" as="sourcePoint" />
+            <mxPoint x="569" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-34" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ subtotal(): Dinero" vertex="1">
+          <mxGeometry height="30" width="217" x="114" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-35" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#168D70;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="546" x="727" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-36" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D8F4EA;strokeColor=#D8F4EA;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="546" x="727" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#168D70;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="746" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-38" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="SolicitudCancelacion" vertex="1">
+          <mxGeometry height="36" width="307" x="746" y="846" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-39" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- solicitudId: UUID" vertex="1">
+          <mxGeometry height="30" width="206" x="746" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-40" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- motivo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="746" y="936" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-41" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- fecha: DateTime" vertex="1">
+          <mxGeometry height="30" width="184" x="746" y="967" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- autorizadaPor: UUID?" vertex="1">
+          <mxGeometry height="30" width="240" x="746" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-43" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727" y="1041.5" as="sourcePoint" />
+            <mxPoint x="1245" y="1041.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-44" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ autorizar(adminId: UUID): void" vertex="1">
+          <mxGeometry height="30" width="350" x="746" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-45" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8D5BCC;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="286" width="475" x="1423" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-46" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F1E6FF;strokeColor=#F1E6FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="475" x="1423" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-47" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="«ValueObject»" vertex="1">
+          <mxGeometry height="28" width="134" x="1442" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-48" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Domicilio" vertex="1">
+          <mxGeometry height="36" width="142" x="1442" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- calle: String" vertex="1">
+          <mxGeometry height="30" width="162" x="1442" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-50" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- numero: String" vertex="1">
+          <mxGeometry height="30" width="173" x="1442" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-51" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- colonia: String" vertex="1">
+          <mxGeometry height="30" width="184" x="1442" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-52" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- ciudad: String" vertex="1">
+          <mxGeometry height="30" width="173" x="1442" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-53" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- codigoPostal: String" vertex="1">
+          <mxGeometry height="30" width="240" x="1442" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-54" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8D5BCC;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="193" width="470" x="1432" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-55" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F1E6FF;strokeColor=#F1E6FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="470" x="1432" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-56" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="«ValueObject»" vertex="1">
+          <mxGeometry height="28" width="134" x="1451" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-57" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="MetodoEntrega" vertex="1">
+          <mxGeometry height="36" width="202" x="1451" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-58" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- codigo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="1451" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-59" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- costoEntrega: Dinero" vertex="1">
+          <mxGeometry height="30" width="240" x="1451" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-60" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8D5BCC;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="193" width="475" x="95" y="946.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-shape-61" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F1E6FF;strokeColor=#F1E6FF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="475" x="95" y="946.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-62" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="«ValueObject»" vertex="1">
+          <mxGeometry height="28" width="134" x="114" y="956.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-63" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Dinero" vertex="1">
+          <mxGeometry height="36" width="97" x="114" y="982.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-64" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- importe: decimal" vertex="1">
+          <mxGeometry height="30" width="195" x="114" y="1041.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-65" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- moneda: String" vertex="1">
+          <mxGeometry height="30" width="173" x="114" y="1072.5" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-66" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#168D70;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=diamond;startFill=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="02-UML-Pedido-shape-25" value="">
+          <mxGeometry relative="1" x="-0.5925" as="geometry">
+            <mxPoint x="750" y="508.5" as="sourcePoint" />
+            <mxPoint x="583" y="702" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-68" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#168D70;" value="composición · 1..*" vertex="1">
+          <mxGeometry height="28" width="183" x="460" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-69" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#168D70;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=diamond;startFill=1;entryX=0.518;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="02-UML-Pedido-shape-35" value="">
+          <mxGeometry relative="1" x="-0.6664" as="geometry">
+            <mxPoint x="1010" y="678" as="sourcePoint" />
+            <mxPoint x="1010" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-71" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#168D70;" value="composición · 0..1" vertex="1">
+          <mxGeometry height="28" width="183" x="990" y="757" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-72" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8D5BCC;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="324" as="sourcePoint" />
+            <mxPoint x="1423" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-74" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="domicilio · 1" vertex="1">
+          <mxGeometry height="28" width="134" x="1280" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-75" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8D5BCC;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="598" />
+              <mxPoint x="1390" y="716.5" />
+            </Array>
+            <mxPoint x="1270" y="598" as="sourcePoint" />
+            <mxPoint x="1432" y="716.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-77" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="método · 1" vertex="1">
+          <mxGeometry height="28" width="105" x="1288" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-edge-78" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8D5BCC;strokeWidth=2.0;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339" y="859" as="sourcePoint" />
+            <mxPoint x="339" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-80" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8D5BCC;" value="precio: Dinero" vertex="1">
+          <mxGeometry height="28" width="144" x="331" y="882" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-81" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=0;fontColor=default;" value="Estados de pago: PENDIENTE_PAGO · PAGADO" vertex="1">
+          <mxGeometry height="28" width="398" x="1370" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-82" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=0;fontColor=default;" value="Preparación: EN_PREPARACION · PREPARADO · EMPACADO" vertex="1">
+          <mxGeometry height="28" width="495" x="1370" y="971" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-83" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=0;fontColor=default;" value="Entrega: EN_TRANSITO · ENTREGADO · ENTREGA_FALLIDA" vertex="1">
+          <mxGeometry height="28" width="495" x="1370" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-84" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=0;fontColor=default;" value="Cancelación: CANCELACION_SOLICITADA · CANCELADO" vertex="1">
+          <mxGeometry height="28" width="466" x="1370" y="1029" as="geometry" />
+        </mxCell>
+        <mxCell id="02-UML-Pedido-text-85" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#168D70;" value="CA-05/06 · CA-10/12 · CA-15" vertex="1">
+          <mxGeometry height="29" width="288" x="1370" y="1062" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03-UML-Preparacion" id="03-UML-Preparacion">
+    <mxGraphModel dx="1703" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" />
+        <mxCell id="1" parent="0" value="" />
+        <mxCell id="03-UML-Preparacion-shape-1" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F6F9FC;strokeColor=#F6F9FC;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="1220" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-2" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#087FBA;strokeColor=#087FBA;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="114" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#DBF8FF;" value="PETMARKET   /   ARQUITECTURA DE SOFTWARE " vertex="1">
+          <mxGeometry height="32" width="613" x="62" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontStyle=1;fontColor=#FFFFFF;" value="03  |  INVENTARIO Y PREPARACIÓN" vertex="1">
+          <mxGeometry height="44" width="632" x="62" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-7" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CADBE8;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1157" as="sourcePoint" />
+            <mxPoint x="1946" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#D09223;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="283" width="590" x="112" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-11" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF1D5;strokeColor=#FFF1D5;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="590" x="112" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-12" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="131" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-13" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Almacen" vertex="1">
+          <mxGeometry height="36" width="112" x="131" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-14" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- almacenId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="131" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-15" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- nombre: String" vertex="1">
+          <mxGeometry height="30" width="173" x="131" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-16" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- existencias: List&lt;ExistenciaInventario&gt;" vertex="1">
+          <mxGeometry height="30" width="450" x="131" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-17" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="126" y="419" as="sourcePoint" />
+            <mxPoint x="688" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-18" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ consultarExistencias(sku: String): int" vertex="1">
+          <mxGeometry height="30" width="438" x="131" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-19" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="587" x="113" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-20" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="587" x="113" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-21" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="132" y="699" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-22" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="ExistenciaInventario" vertex="1">
+          <mxGeometry height="36" width="307" x="132" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-23" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- productoSKU: String" vertex="1">
+          <mxGeometry height="30" width="229" x="132" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- cantidadDisponible: int" vertex="1">
+          <mxGeometry height="30" width="273" x="132" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-25" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="857" as="sourcePoint" />
+            <mxPoint x="686" y="857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-26" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ verificarCantidad(q: int): bool" vertex="1">
+          <mxGeometry height="30" width="361" x="132" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-27" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#D09223;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="376" width="710" x="1070" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-28" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF1D5;strokeColor=#FFF1D5;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="710" x="1070" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-29" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="1089" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="OrdenPreparacion" vertex="1">
+          <mxGeometry height="36" width="247" x="1089" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- ordenId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="1089" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-32" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="1089" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-33" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- almacenId: UUID" vertex="1">
+          <mxGeometry height="30" width="184" x="1089" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-34" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoPreparacion" vertex="1">
+          <mxGeometry height="30" width="295" x="1089" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-35" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084" y="450" as="sourcePoint" />
+            <mxPoint x="1766" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-36" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ iniciarPreparacion(): void" vertex="1">
+          <mxGeometry height="30" width="306" x="1089" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ marcarPreparado(fecha: DateTime): void" vertex="1">
+          <mxGeometry height="30" width="438" x="1089" y="491" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-38" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ empacar(): void" vertex="1">
+          <mxGeometry height="30" width="184" x="1089" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-39" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="650" x="1100" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-40" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="650" x="1100" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-41" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="1119" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="LineaPreparacion" vertex="1">
+          <mxGeometry height="36" width="247" x="1119" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-43" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- lineaId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="1119" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-44" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- productoSKU: String" vertex="1">
+          <mxGeometry height="30" width="229" x="1119" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-45" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- cantidad: int" vertex="1">
+          <mxGeometry height="30" width="162" x="1119" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-46" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#109A9C;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="164" width="780" x="110" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-shape-47" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#D9F4F5;strokeColor=#D9F4F5;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="780" x="110" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-48" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#109A9C;" value="«DomainService»" vertex="1">
+          <mxGeometry height="28" width="154" x="129" y="976" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="AsignadorDeAlmacenes" vertex="1">
+          <mxGeometry height="36" width="307" x="129" y="1002" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-50" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="124" y="1072" as="sourcePoint" />
+            <mxPoint x="876" y="1072" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-51" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#1D3452;" value="+ asignarLineas(lineas, existencias): PlanAsignacion" vertex="1">
+          <mxGeometry height="31" width="604" x="129" y="1081" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-52" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#D09223;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=diamond;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407" y="503" as="sourcePoint" />
+            <mxPoint x="407" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-54" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="composición · 0..*" vertex="1">
+          <mxGeometry height="28" width="183" x="398" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-55" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#D09223;strokeWidth=2.6;endArrow=block;endFill=1;startArrow=diamond;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="596" as="sourcePoint" />
+            <mxPoint x="1425" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-57" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="composición · 1..*" vertex="1">
+          <mxGeometry height="28" width="183" x="1410" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-edge-58" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#D09223;strokeWidth=2.5;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="361.5" />
+              <mxPoint x="900" y="408" />
+            </Array>
+            <mxPoint x="702" y="361.5" as="sourcePoint" />
+            <mxPoint x="1070" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03-UML-Preparacion-text-60" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#D09223;" value="almacenId (referencia)" vertex="1">
+          <mxGeometry height="28" width="222" x="702" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04-UML-PagoLogistica" id="04-UML-PagoLogistica">
+    <mxGraphModel dx="735" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" />
+        <mxCell id="1" parent="0" value="" />
+        <mxCell id="04-UML-PagoLogistica-shape-1" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F6F9FC;strokeColor=#F6F9FC;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="1220" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-2" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#087FBA;strokeColor=#087FBA;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="114" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#DBF8FF;" value="PETMARKET   /   ARQUITECTURA DE SOFTWARE " vertex="1">
+          <mxGeometry height="32" width="613" x="62" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontStyle=1;fontColor=#FFFFFF;" value="04  |  PAGOS, LOGÍSTICA Y POSTVENTA" vertex="1">
+          <mxGeometry height="44" width="713" x="62" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-7" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CADBE8;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1157" as="sourcePoint" />
+            <mxPoint x="1946" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8460C7;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="550" x="92" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-11" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#ECE1FF;strokeColor=#ECE1FF;strokeWidth=0;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="86" width="550" x="92" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-12" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="111" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-13" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Pago" vertex="1">
+          <mxGeometry height="36" width="67" x="111" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-14" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pagoId: UUID" vertex="1">
+          <mxGeometry height="30" width="151" x="111" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-15" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="111" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-16" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- importe: Dinero" vertex="1">
+          <mxGeometry height="30" width="184" x="111" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-17" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoPago" vertex="1">
+          <mxGeometry height="30" width="217" x="111" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-18" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106" y="485" as="sourcePoint" />
+            <mxPoint x="628" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-19" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarResultado(resultado: ResultadoPago): void" vertex="1">
+          <mxGeometry height="30" width="571" x="111" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-20" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CE5287;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="376" width="575" x="760" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-21" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFE1ED;strokeColor=#FFE1ED;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="575" x="760" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-22" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="779" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-23" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Envio" vertex="1">
+          <mxGeometry height="36" width="82" x="779" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- envioId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="779" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-25" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="779" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-26" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- numeroGuia: String?" vertex="1">
+          <mxGeometry height="30" width="229" x="779" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-27" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoEnvio" vertex="1">
+          <mxGeometry height="30" width="229" x="779" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-28" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774" y="485" as="sourcePoint" />
+            <mxPoint x="1321" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-29" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarSalida(): void" vertex="1">
+          <mxGeometry height="30" width="273" x="779" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ confirmarEntrega(fecha: DateTime): void" vertex="1">
+          <mxGeometry height="30" width="450" x="779" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarEntregaFallida(motivo: String): void" vertex="1">
+          <mxGeometry height="30" width="516" x="779" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-32" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CE5287;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="345" width="465" x="1470" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-33" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFE1ED;strokeColor=#FFE1ED;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="465" x="1470" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-34" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="1489" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-35" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="SolicitudDevolucion" vertex="1">
+          <mxGeometry height="36" width="292" x="1489" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-36" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- devolucionId: UUID" vertex="1">
+          <mxGeometry height="30" width="217" x="1489" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="1489" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-38" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- folio: String" vertex="1">
+          <mxGeometry height="30" width="162" x="1489" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-39" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- motivo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="1489" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-40" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- opcion: TipoDevolucion" vertex="1">
+          <mxGeometry height="30" width="262" x="1489" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-41" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1484" y="516" as="sourcePoint" />
+            <mxPoint x="1921" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarSolicitud(): void" vertex="1">
+          <mxGeometry height="30" width="306" x="1489" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-43" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="566" x="775" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-44" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="566" x="775" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-45" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="794" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-46" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="IncidenciaEntrega" vertex="1">
+          <mxGeometry height="36" width="262" x="794" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-47" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- incidenciaId: UUID" vertex="1">
+          <mxGeometry height="30" width="217" x="794" y="884" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-48" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- motivo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="794" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- fechaHora: DateTime" vertex="1">
+          <mxGeometry height="30" width="229" x="794" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-50" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BF7D19;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="535" x="93" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-51" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFEAC7;strokeColor=#FFEAC7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="535" x="93" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-52" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#BF7D19;" value="«Enumeration»" vertex="1">
+          <mxGeometry height="28" width="134" x="112" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-53" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="EstadoPago" vertex="1">
+          <mxGeometry height="36" width="157" x="112" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-54" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="PENDIENTE" vertex="1">
+          <mxGeometry height="30" width="107" x="112" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-55" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="APROBADO" vertex="1">
+          <mxGeometry height="30" width="96" x="112" y="926" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-56" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="RECHAZADO" vertex="1">
+          <mxGeometry height="30" width="107" x="112" y="957" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-57" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BF7D19;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="193" width="481" x="1448" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-58" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFEAC7;strokeColor=#FFEAC7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="481" x="1448" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-59" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#BF7D19;" value="«Enumeration»" vertex="1">
+          <mxGeometry height="28" width="134" x="1467" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-60" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="TipoDevolucion" vertex="1">
+          <mxGeometry height="36" width="217" x="1467" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-61" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="CAMBIO" vertex="1">
+          <mxGeometry height="30" width="74" x="1467" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-62" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="REEMBOLSO" vertex="1">
+          <mxGeometry height="30" width="107" x="1467" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-63" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8460C7;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="569" as="sourcePoint" />
+            <mxPoint x="367" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-65" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="estado" vertex="1">
+          <mxGeometry height="28" width="66" x="380" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-66" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#CE5287;strokeWidth=2.7;endArrow=block;endFill=1;startArrow=diamond;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047.5" y="631" as="sourcePoint" />
+            <mxPoint x="1047.5" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-68" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="composición · 0..*" vertex="1">
+          <mxGeometry height="28" width="183" x="1030" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-69" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#CE5287;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1702.5" y="600" as="sourcePoint" />
+            <mxPoint x="1702.5" y="817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-71" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="opción" vertex="1">
+          <mxGeometry height="28" width="66" x="1701" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

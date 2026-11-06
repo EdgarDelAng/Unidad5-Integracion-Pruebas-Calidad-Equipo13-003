@@ -1,0 +1,18 @@
+ID,Regla,Entrada,Resultado esperado,Tipo,Archivo de prueba,Resultado verificado
+LAB-01,Descuento VIP,Total=100; VIP=True,Total cobrado=85; estado CONFIRMED,Éxito,tests/test_order.py,PASSED
+LAB-02,Cliente regular,Total=100; VIP=False,Total cobrado=100,Éxito,tests/test_order.py,PASSED
+LAB-03,Deuda pendiente,Total=100; deuda=50,Se lanza CustomerHasDebt,Error,tests/test_order.py,PASSED
+LAB-04,Total cero,Total=0,Se lanza ValueError,Límite,tests/test_order.py,PASSED
+LAB-05,Total negativo,Total=-1,Se lanza ValueError,Error,tests/test_order.py,PASSED
+LAB-06,Confirmación duplicada,Confirmar dos veces,Segunda confirmación rechazada,Error/TDD,tests/test_order.py,PASSED
+LAB-07,Persistencia commit,Pedido id=1 total=120,Registro disponible después de commit,Integración,tests/test_repository.py,PASSED
+LAB-08,Rollback,Guardar y ejecutar rollback,Registro inexistente después de rollback,Integración,tests/test_repository.py,PASSED
+LAB-09,Persistencia pedido 250,Pedido id=2 total=250 status NEW,Registro recuperable con sus campos,Integración,tests/test_repository.py,PASSED
+LAB-10,Pago aprobado,Mock charge=True,Checkout devuelve importe y llama gateway una vez,Mock,tests/test_service.py,PASSED
+LAB-11,Pago rechazado,Mock charge=False,Se lanza RuntimeError,Error/Mock,tests/test_service.py,PASSED
+LAB-12,VIP con pago rechazado,Total=200; VIP=True; charge=False,Mock recibe 170 y checkout lanza RuntimeError,Mock/Límite,tests/test_service.py,PASSED
+LAB-13,Propietario dentro de 24h,NEW; owner=user; antigüedad=1h,Cancelación permitida,Autorización,tests/test_security.py,PASSED
+LAB-14,Usuario ajeno,NEW; owner!=user,Cancelación denegada,Autorización,tests/test_security.py,PASSED
+LAB-15,Pedido enviado,SHIPPED; admin=True,Cancelación denegada,Autorización,tests/test_security.py,PASSED
+LAB-16,Administrador,NEW; admin=True; owner!=user,Cancelación permitida,Autorización,tests/test_security.py,PASSED
+LAB-17,Exactamente 24 horas,NEW; owner=user; antigüedad=24h,Cancelación denegada,Límite,tests/test_security.py,PASSED

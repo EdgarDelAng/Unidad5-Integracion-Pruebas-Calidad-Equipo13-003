@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="PetMarket-U3" pages="4">
+  <diagram name="04-UML-PagoLogistica" id="04-UML-PagoLogistica">
+    <mxGraphModel dx="735" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" />
+        <mxCell id="1" parent="0" value="" />
+        <mxCell id="04-UML-PagoLogistica-shape-1" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F6F9FC;strokeColor=#F6F9FC;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="1220" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-2" parent="1" style="rounded=0;arcSize=10;whiteSpace=wrap;html=0;fillColor=#087FBA;strokeColor=#087FBA;strokeWidth=1.4;" value="" vertex="1">
+          <mxGeometry height="114" width="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-4" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#DBF8FF;" value="PETMARKET   /   ARQUITECTURA DE SOFTWARE " vertex="1">
+          <mxGeometry height="32" width="613" x="62" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-5" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=31;fontStyle=1;fontColor=#FFFFFF;" value="04  |  PAGOS, LOGÍSTICA Y POSTVENTA" vertex="1">
+          <mxGeometry height="44" width="713" x="62" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-7" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CADBE8;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="1157" as="sourcePoint" />
+            <mxPoint x="1946" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-10" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#8460C7;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="314" width="550" x="92" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-11" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#ECE1FF;strokeColor=#ECE1FF;strokeWidth=0;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="86" width="550" x="92" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-12" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="111" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-13" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Pago" vertex="1">
+          <mxGeometry height="36" width="67" x="111" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-14" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pagoId: UUID" vertex="1">
+          <mxGeometry height="30" width="151" x="111" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-15" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="111" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-16" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- importe: Dinero" vertex="1">
+          <mxGeometry height="30" width="184" x="111" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-17" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoPago" vertex="1">
+          <mxGeometry height="30" width="217" x="111" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-18" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="106" y="485" as="sourcePoint" />
+            <mxPoint x="628" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-19" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarResultado(resultado: ResultadoPago): void" vertex="1">
+          <mxGeometry height="30" width="571" x="111" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-20" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CE5287;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="376" width="575" x="760" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-21" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFE1ED;strokeColor=#FFE1ED;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="575" x="760" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-22" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="779" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-23" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="Envio" vertex="1">
+          <mxGeometry height="36" width="82" x="779" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-24" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- envioId: UUID" vertex="1">
+          <mxGeometry height="30" width="162" x="779" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-25" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="779" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-26" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- numeroGuia: String?" vertex="1">
+          <mxGeometry height="30" width="229" x="779" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-27" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- estado: EstadoEnvio" vertex="1">
+          <mxGeometry height="30" width="229" x="779" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-28" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774" y="485" as="sourcePoint" />
+            <mxPoint x="1321" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-29" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarSalida(): void" vertex="1">
+          <mxGeometry height="30" width="273" x="779" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-30" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ confirmarEntrega(fecha: DateTime): void" vertex="1">
+          <mxGeometry height="30" width="450" x="779" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-31" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarEntregaFallida(motivo: String): void" vertex="1">
+          <mxGeometry height="30" width="516" x="779" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-32" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#CE5287;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="345" width="465" x="1470" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-33" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFE1ED;strokeColor=#FFE1ED;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="465" x="1470" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-34" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="«AggregateRoot»" vertex="1">
+          <mxGeometry height="28" width="154" x="1489" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-35" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="SolicitudDevolucion" vertex="1">
+          <mxGeometry height="36" width="292" x="1489" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-36" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- devolucionId: UUID" vertex="1">
+          <mxGeometry height="30" width="217" x="1489" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-37" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- pedidoId: UUID" vertex="1">
+          <mxGeometry height="30" width="173" x="1489" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-38" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- folio: String" vertex="1">
+          <mxGeometry height="30" width="162" x="1489" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-39" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- motivo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="1489" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-40" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- opcion: TipoDevolucion" vertex="1">
+          <mxGeometry height="30" width="262" x="1489" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-41" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#CFDBE7;strokeWidth=1;endArrow=none;endFill=1;startArrow=none;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1484" y="516" as="sourcePoint" />
+            <mxPoint x="1921" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-42" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="+ registrarSolicitud(): void" vertex="1">
+          <mxGeometry height="30" width="306" x="1489" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-43" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#327FC1;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="566" x="775" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-44" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#DDEEFF;strokeColor=#DDEEFF;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="566" x="775" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-45" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#327FC1;" value="«Entity»" vertex="1">
+          <mxGeometry height="28" width="86" x="794" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-46" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="IncidenciaEntrega" vertex="1">
+          <mxGeometry height="36" width="262" x="794" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-47" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- incidenciaId: UUID" vertex="1">
+          <mxGeometry height="30" width="217" x="794" y="884" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-48" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- motivo: String" vertex="1">
+          <mxGeometry height="30" width="173" x="794" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-49" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="- fechaHora: DateTime" vertex="1">
+          <mxGeometry height="30" width="229" x="794" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-50" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BF7D19;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="224" width="535" x="93" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-51" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFEAC7;strokeColor=#FFEAC7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="535" x="93" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-52" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#BF7D19;" value="«Enumeration»" vertex="1">
+          <mxGeometry height="28" width="134" x="112" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-53" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="EstadoPago" vertex="1">
+          <mxGeometry height="36" width="157" x="112" y="836" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-54" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="PENDIENTE" vertex="1">
+          <mxGeometry height="30" width="107" x="112" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-55" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="APROBADO" vertex="1">
+          <mxGeometry height="30" width="96" x="112" y="926" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-56" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="RECHAZADO" vertex="1">
+          <mxGeometry height="30" width="107" x="112" y="957" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-57" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#BF7D19;strokeWidth=1.7;" value="" vertex="1">
+          <mxGeometry height="193" width="481" x="1448" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-shape-58" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFEAC7;strokeColor=#FFEAC7;strokeWidth=0;" value="" vertex="1">
+          <mxGeometry height="86" width="481" x="1448" y="817" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-59" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#BF7D19;" value="«Enumeration»" vertex="1">
+          <mxGeometry height="28" width="134" x="1467" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-60" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#1D3452;" value="TipoDevolucion" vertex="1">
+          <mxGeometry height="36" width="217" x="1467" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-61" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="CAMBIO" vertex="1">
+          <mxGeometry height="30" width="74" x="1467" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-62" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#1D3452;" value="REEMBOLSO" vertex="1">
+          <mxGeometry height="30" width="107" x="1467" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-63" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#8460C7;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="569" as="sourcePoint" />
+            <mxPoint x="367" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-65" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#8460C7;" value="estado" vertex="1">
+          <mxGeometry height="28" width="66" x="380" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-66" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#CE5287;strokeWidth=2.7;endArrow=block;endFill=1;startArrow=diamond;startFill=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047.5" y="631" as="sourcePoint" />
+            <mxPoint x="1047.5" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-68" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="composición · 0..*" vertex="1">
+          <mxGeometry height="28" width="183" x="1030" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-edge-69" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#CE5287;strokeWidth=2.3;endArrow=block;endFill=1;startArrow=none;startFill=1;dashed=1;dashPattern=7 5;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1702.5" y="600" as="sourcePoint" />
+            <mxPoint x="1702.5" y="817" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04-UML-PagoLogistica-text-71" parent="1" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#CE5287;" value="opción" vertex="1">
+          <mxGeometry height="28" width="66" x="1701" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
